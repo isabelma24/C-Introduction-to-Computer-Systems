@@ -11,7 +11,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Author: Isabel Ma
 int reverse_assemble (row_of_memory* memory)
 {
   /* binary constants should be proceeded by a 0b as in 0b011 for decimal 3 */
