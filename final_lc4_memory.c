@@ -15,7 +15,7 @@
 /*
  * adds a new node to a linked list pointed to by head
  */
- // Author: Justin Shiah
+
 int add_to_list (row_of_memory** head, short unsigned int address, short unsigned int contents)
 {
     /* check to see if there is already an entry for this address and update the contents.  no additional steps required in this case */
@@ -82,7 +82,7 @@ int add_to_list (row_of_memory** head, short unsigned int address, short unsigne
 /*
  * search linked list by address field, returns node if found
  */
- // Author: Justin Shiah & Isabel Ma
+
 row_of_memory* search_address (row_of_memory* head,
 			       short unsigned int address )
 {
@@ -126,7 +126,7 @@ row_of_memory* search_opcode  (row_of_memory* head,
 	return NULL ;
 }
 
-// Author: Justin Shiah & Isabel Ma
+
 void print_list (row_of_memory* head )
 {
 	/* make sure head isn't NULL */
@@ -147,7 +147,7 @@ void print_list (row_of_memory* head )
 /*
  * delete entire linked list
  */
- // Author: Justin Shiah & Isabel Ma
+
 int delete_list (row_of_memory** head )
 {
 	/* delete entire list node by node */
