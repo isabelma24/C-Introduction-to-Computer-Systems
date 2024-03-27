@@ -12,7 +12,7 @@
 #include "lc4_memory.h"
 
 /* declarations of functions that must defined in lc4_loader.c */
-// Author: Justin Shiah
+
 FILE* open_file(char* file_name)
 {
 	FILE *filename = fopen(file_name, "rb");
@@ -27,7 +27,7 @@ FILE* open_file(char* file_name)
 	
 }
 
-// Author: Justin Shiah
+
 int parse_file (FILE* my_obj_file, row_of_memory** memory)
 {
 /* remember to adjust 16-bit values read from the file for endiannness
