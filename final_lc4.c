@@ -13,7 +13,6 @@
 
 /* program to mimic pennsim loader and disassemble object files */
 
-// Author: Justin Shiah & Isabel Ma
 int main (int argc, char** argv) {
   
 /* leave plenty of room for the filename */
