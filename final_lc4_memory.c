@@ -101,7 +101,7 @@ row_of_memory* search_address (row_of_memory* head,
 /*
  * search linked list by opcode field, returns node if found
  */
- // Author: Justin Shiah
+
 row_of_memory* search_opcode  (row_of_memory* head,
 				      short unsigned int opcode  )
 {
